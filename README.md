@@ -1,3 +1,2 @@
-# Basic-Portfolio
-Basic Portfolio
-Week 1 Homework Assignment
+# Basic-Portfolio-BSTP
+Basic Portfolio, Version 2
