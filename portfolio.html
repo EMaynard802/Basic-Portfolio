@@ -1,70 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio | Eleanor Maynard</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ <style>
+  .btn-primary {
+    background-color: #4aaaa5;
+    border-color: #5bc2c2
+    }
+  </style>
+
 </head>
 
-<body>
-
-<header>
-  <div class="wrapper">
-    <a href="#" id="logo">Eleanor Maynard</a>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div id="container" class="wrapper">
-  <div id="content" class="module">
-    <h1>Portfolio</h1>
-  
-    <div class="games">
-    <img src="assets/images/monument-1041687__340_trivia.jpg" height="206" alt="Trivia">
-    <h3>Trivia</h3>
+<body style=height:max-content>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top ml-2" style=position:absolute>
+    <div class="container" style=background:white>
+      <a class="navbar-brand ml-4" href="#">
+            <img src="Assets/Images/header.png" alt="Eleanor" style=width:360px style=height:125px>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav a active">
+            <a class="nav-link" href="index.html">About
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav a">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav a">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+   <div class="container-fluid ml-5"></div>
+   <div class="row top-buffer ml-4" style=position:absolute> 
+        <div class="col-lg-12 mt-5 ml-5 py-4" style=background:white><h3 style=font-weight:bolder>Portfolio</h3></div>
+        <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-0">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/Crime.png" style=width:100% height=90%>
+              <a href="https://github.com/shelbypalumbo/Heat-Wave-Crime-Data" class="btn btn-primary" style=width:100%>Project 1: Pulls data from FBI/CBE & Mapbox APIs</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 ml-5 mt-0">
+          <div class="card h-100 style=min-width:30% style=max-width:100%">
+            <div class="card-body">
+              <img src="Assets/Images/pswgeneratot.png" style=width:100% height=90%>
+              <a href="https://emaynard802.github.io/Password-Generator/." class="btn btn-primary" style=width:100%>Password-Generator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/Weather.png" style=width:100% height=90%>
+              <a href="https://emaynard802.github.io/Weather-Dashboard/" class="btn btn-primary" style=width:100%>5-Day Weather Dashboard</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 ml-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/planner.png" style=width:100% height=90%>
+              <a href="https://emaynard802.github.io/Day-Planner/" class="btn btn-primary" style=width:100%>Work Day Planner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/thumbnail_large-1_rpg.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>RPG Game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 mt-3">  
+        </div>
+        <div class="clear"></div>
+            
+        <div class="container"> 
+              <footer>
+                  Copyright &copy;
+                </div>
+              </footer>         
+            </div>
+            </div>
+        
+      </body>  
+   
 
-    <div class="games">
-    <img src="assets/images/pixabay-325782__340_hangman.jpg" height="206" alt="Hangman">
-    <h3>Hangman</h3>
-    </div>
 
-    <div class="games">
-    <img src="assets/images/soccer-3339036__340_rutgers.jpg" height="206" alt="Rutgers">
-    <h3>Rutgers Games</h3>
-    </div>
-
-    <div class="games">
-    <img src="assets/images/thumbnail_large-1_rpg.jpg" height ="206" alt="RPG">
-    <h3>RPG</h3>
-
-    </div>
-    <div class="games">
-    <img src="assets/images/concentric-3438463__340_rock.jpg" height="206" alt="Rock, Paper..">
-    <h3>Rock, Paper, Scissors</h3>
-    </div>
-
-    </section>  
-
-  </div>
-  <div id="social" class="module">
-    <h2>Connect with Me</h2>
-
-    <a href="#"><img src="assets/images/iconfinder_1_Facebook_colored_svg_copy_5296499 (1).png"></a>
-    <a href="#"><img src="assets/images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"></a>
-    <a href="#"><img src="assets/images/iconfinder_Github_1298743.png"></a>
-  </div>
-</div>
-  <footer> Copyright &copy; 2019 </footer>
-    
-</body>
 </html>
